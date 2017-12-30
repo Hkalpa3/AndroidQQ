@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/contact_group_add"
+        android:title="添加分组"/>
+
+    <item
+        android:id="@+id/contact_group_rename"
+        android:title="更改组名"/>
+    <item
+        android:id="@+id/contact_group_delete"
+        android:title="删除分组"/>
+
+</menu>

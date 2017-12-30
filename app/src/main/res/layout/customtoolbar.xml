@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.zed.androidqq.tools.CustomToolbar
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@drawable/skin_header_bar_bg"
+    >
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/lt_main_title_left"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:singleLine="true"-->
+        <!--android:text="返回"-->
+        <!--android:gravity="center"-->
+        <!--android:drawableLeft="@mipmap/icon_back"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:textSize="16dp"-->
+        <!--android:visibility="visible" />-->
+
+    <!---->
+    <com.example.zed.androidqq.tools.RoundImageView
+        app:type="circle"
+        android:scaleType="fitXY"
+        android:src="@drawable/ttm"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:id="@+id/lt_main_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:text="标题"
+        android:textSize="20dp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/lt_main_title_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:visibility="visible"
+        android:drawableRight="@mipmap/ic_launcher"
+        android:textSize="16dp" />
+
+
+</com.example.zed.androidqq.tools.CustomToolbar>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/skin_header_bar_bg"
+    android:gravity="bottom"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize">
+
+    <com.example.zed.androidqq.tools.RoundImageView
+        android:id="@+id/iv_headPic_mytoolbar"
+        app:type="circle"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:src="@drawable/emj0"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="5dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:id="@+id/tv_title_mytoolbar"
+        android:layout_width="wrap_content"
+        android:textColor="#f7ffffff"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_headPic_mytoolbar"
+        android:layout_centerHorizontal="true"
+        android:text="标题"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/ib_plus_mytoolbar"
+        android:src="@drawable/header_btn_add_nor"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_alignParentRight="true"
+        android:background="#00000000"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+
+</RelativeLayout>

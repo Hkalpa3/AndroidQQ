@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/skin_chat_background_preview"
+    tools:context="com.example.zed.androidqq.Activity.ChatActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tb_chat"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="top"
+        android:background="@drawable/skin_header_bar_bg">
+
+        <ImageButton
+            android:id="@+id/ib__back_chat_toolb"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="#00000000"
+            android:padding="2dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/back_toolbar" />
+
+        <TextView
+            android:id="@+id/title_chat_toolb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:text="联系人"
+            android:textColor="#c6ffffff"
+            android:textSize="22sp" />
+    </android.support.v7.widget.Toolbar>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView_chat_msg"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <!--输入框 背景图-->
+        <!--android:background="@drawable/skin_input_bar_bg_theme_version2"-->
+        <EditText
+            android:id="@+id/et_msg_chat"
+            android:text="2333"
+            android:layout_gravity="bottom"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/btn_send_chat"
+            android:text="发送"
+            android:textSize="20sp"
+            android:textColor="#defcfcfc"
+            android:background="#66c1bebe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <ImageButton
+            android:id="@+id/ib_record_chat"
+            android:scaleType="centerInside"
+            android:src="@drawable/record0"
+            android:background="#00000000"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <ImageButton
+            android:id="@+id/ib_pic_chat"
+            android:scaleType="centerInside"
+            android:src="@drawable/pic0"
+            android:background="#00000000"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <ImageButton
+            android:id="@+id/ib_location_chat"
+            android:scaleType="centerInside"
+            android:src="@drawable/location0"
+            android:background="#00000000"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <ImageButton
+            android:id="@+id/ib_emj_chat"
+            android:scaleType="centerInside"
+            android:src="@drawable/emj0"
+            android:background="#00000000"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="45dp"
+
+    android:paddingTop="5dp"
+    android:paddingBottom="0dp"
+    >
+
+    <ImageView
+        android:id="@+id/iv_group_elv"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="1dp"
+        android:paddingTop="6dp"
+
+        android:src="@drawable/contact_group_close"
+      />
+
+    <TextView
+        android:id="@+id/tv_group_name_elv"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:textColor="#fe030006"
+        android:text="联系人分组"
+        android:textSize="20sp"
+       />
+
+
+
+</LinearLayout>

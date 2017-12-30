@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_qq_pocket"
+            android:title="QQ钱包"
+            android:icon="@drawable/qq_setting_qianbao"
+            />
+        <item
+            android:id="@+id/nav_decorate"
+            android:title="个性装扮"
+            android:icon="@drawable/qq_setting_zhuangban"
+            />
+
+        <item
+            android:id="@+id/nav_collect"
+            android:title="个性收藏"
+            android:icon="@drawable/qq_setting_shoucang"
+            />
+        <item
+            android:id="@+id/nav_file"
+            android:title="我的文件"
+            android:icon="@drawable/qq_setting_wenjian"
+            />
+        <item
+            android:id="@+id/nav_photo"
+            android:title="相册"
+            android:icon="@drawable/qq_setting_xiangce"
+            />
+    </group>
+
+</menu>

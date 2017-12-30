@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zed.androidqq.Activity.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/mThemeLightNoActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_main"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/skin_header_bar_bg"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+            <com.example.zed.androidqq.tools.RoundImageView
+                android:id="@+id/iv_headPic_toolbar_main"
+                app:type="circle"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ttm"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            
+            <TextView
+                android:layout_marginLeft="50dp"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                android:text="自定义标题"
+                android:textSize="20sp"
+                android:layout_marginStart="135dp"
+                android:id="@+id/tv_myTitle_toolbar_main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </android.support.v7.widget.Toolbar>
+
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+
+</android.support.design.widget.CoordinatorLayout>
